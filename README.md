@@ -103,19 +103,19 @@ The website was checked to ensure that:
 
 The Home page was tested at approximately 1440px wide.
 
-![Desktop Home Page](screenshots/Desktop%20new.png)
+![Desktop Home Page](Screenshots/Desktop%20new.png)
 
 ### Tablet
 
 The Home page was tested at approximately 768px wide.
 
-![Tablet Home Page](screenshots/Tablet%20new.png)
+![Tablet Home Page](Screenshots/Tablet%20new.png)
 
 ### Mobiles
 
 The Home page was tested at approximately 390px wide.
 
-![Mobile Home Page](screenshots/Mobile%20new.png)
+![Mobile Home Page](Screenshots/Mobile%20new.png)
 
 - **Website Navigation** – Good work, but minor improvements were required.
 - **Code Comments** – Basic requirements were met, but more detail and accuracy were recommended.
