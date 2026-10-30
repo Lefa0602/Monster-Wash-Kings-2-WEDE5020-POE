@@ -81,6 +81,9 @@ This section records the development changes and improvements made to the Monste
 - Added a console message to confirm that the JavaScript file loads successfully.
 - Connected the Enquiry and Contact forms to FormSubmit.app using their HTML form action attributes.
 - Tested both forms to confirm that customer submissions could be sent successfully.
+- Added an interactive FAQ accordion to the Services page using HTML `<details>` and `<summary>` elements.
+- Styled the FAQ section using CSS to match the website's existing design.
+- Tested the FAQ questions to confirm that answers open and close correctly.
 
 ### Part 3 – Deployment and Documentation
 
