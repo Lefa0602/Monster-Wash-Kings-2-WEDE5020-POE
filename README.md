@@ -156,8 +156,44 @@ A shared external stylesheet was created:
 css/style.css
 # References
 
-- MDN Web Docs. CSS Documentation. Used as a reference for CSS styling and layout techniques.
-- MDN Web Docs. CSS Media Queries. Used as a reference for responsive design and breakpoints.
-- MDN Web Docs. Responsive Images. Used as a reference for `srcset`, `sizes` and responsive image techniques.
-- MDN Web Docs. CSS Flexbox. Used as a reference for flexible page layouts and navigation.
-- MDN Web Docs. CSS Grid Layout. Used as a reference for the responsive service-card layout.
+- MDN Web Docs. (n.d.). CSS Documentation. https://developer.mozilla.org/en-US/docs/Web/CSS
+- MDN Web Docs. (n.d.). CSS Media Queries. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries
+- MDN Web Docs. (n.d.). Responsive Images. https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images
+- MDN Web Docs. (n.d.). CSS Flexbox. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
+- MDN Web Docs. (n.d.). CSS Grid Layout. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+- MDN Web Docs. (n.d.). JavaScript Guide. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+- FormSubmit.app. (n.d.). Form submission service. https://formsubmit.app/
+
+## Part 3 – JavaScript Functionality
+
+### Part 3 Overview
+
+Part 3 focuses on implementing JavaScript functionality to improve the interactivity and usability of the Monster Wash Kings website.
+
+An external JavaScript file was created and linked to the HTML pages.
+
+### JavaScript File
+
+The JavaScript file is located at:
+
+`js/script.js`
+
+### JavaScript Features
+
+The following functionality was implemented:
+
+- **Smooth Scrolling:** Internal page links smoothly scroll to their target sections.
+- **Booking Date Validation:** The preferred booking date cannot be earlier than the current date.
+- **Page Load Confirmation:** A console message confirms that the JavaScript file has loaded successfully.
+
+### Form Functionality
+
+The Enquiry and Contact forms were connected to FormSubmit.app using HTML form submission.
+
+The forms allow customers to submit their information and send enquiries to the business.
+
+Both forms were tested to confirm that submissions work successfully.
+
+### Testing
+
+JavaScript functionality was checked in the browser to confirm that the website continued to operate correctly after implementation.

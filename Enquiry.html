@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Enquiry | Monster Wash Kings</title>
+    <title>Book a Mobile Car Wash | Monster Wash Kings</title>
+    <meta name="description" content="Enquire about a mobile car wash with Monster Wash Kings. Select your preferred service, date and location in Pretoria North.">
+    <meta name="robots" content="index, follow">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -35,8 +38,7 @@
         <section class="page-intro">
             <div class="container">
 
-                <h2>Book a Car Wash</h2>
-
+                <h1>Book a Car Wash</h1>
                 <p>
                     Ready to get your vehicle cleaned?
                     Complete the form below and send us your enquiry.
@@ -53,69 +55,72 @@
 
                     <h2>Service Enquiry Form</h2>
 
-                    <form>
+                   
 
-                        <div class="form-group">
-                            <label for="name">Full Name:</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
+<form id="enquiry-form"
+      action="https://formsubmit.app/f/neavabdbeg"
+      method="POST">
+    <input type="hidden" name="_subject"
+           value="New Monster Wash Kings Booking Enquiry">
 
+    <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"
+               minlength="2" maxlength="80" required>
+    </div>
 
-                        <div class="form-group">
-                            <label for="email">Email Address:</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
+    <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"
+               maxlength="120" required>
+    </div>
 
+    <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"
+               pattern="[+]?[0-9 ()-]{9,20}"
+               title="Enter a valid phone number using digits, spaces, brackets or hyphens."
+               required>
+    </div>
 
-                        <div class="form-group">
-                            <label for="phone">Phone Number:</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </div>
+    <div class="form-group">
+        <label for="service">Select a Service:</label>
+        <select id="service" name="service" required>
+            <option value="">-- Select a Service --</option>
+            <option value="Basic Car Wash - R150">Basic Car Wash - R150</option>
+            <option value="Full Car Wash - R200">Full Car Wash - R200</option>
+            <option value="Interior Cleaning - R100">Interior Cleaning - R100</option>
+            <option value="Exterior Cleaning - R100">Exterior Cleaning - R100</option>
+        </select>
+    </div>
 
+    <div class="form-group">
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+    </div>
 
-                        <div class="form-group">
-                            <label for="service">Select a Service:</label>
+    <div class="form-group">
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required>
+    </div>
 
-                            <select id="service" name="service" required>
-                                <option value="">-- Select a Service --</option>
-                                <option value="basic">Basic Car Wash - R150</option>
-                                <option value="full">Full Car Wash - R200</option>
-                                <option value="interior">Interior Cleaning - R100</option>
-                                <option value="exterior">Exterior Cleaning - R100</option>
-                            </select>
-                        </div>
+    <div class="form-group">
+        <label for="location">Service Location:</label>
+        <input type="text" id="location" name="location"
+               placeholder="Enter your suburb or area"
+               minlength="2" maxlength="150" required>
+    </div>
 
+    <div class="form-group">
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" rows="5"
+                  maxlength="1000"
+                  placeholder="Tell us anything we should know about your vehicle or booking."></textarea>
+    </div>
 
-                        <div class="form-group">
-                            <label for="date">Preferred Date:</label>
-                            <input type="date" id="date" name="date" required>
-                        </div>
-
-
-                        <div class="form-group">
-                            <label for="time">Preferred Time:</label>
-                            <input type="time" id="time" name="time" required>
-                        </div>
-
-
-                        <div class="form-group">
-                            <label for="location">Service Location:</label>
-                            <input type="text" id="location" name="location"
-                                placeholder="Enter your suburb or area" required>
-                        </div>
-
-
-                        <div class="form-group">
-                            <label for="message">Additional Information:</label>
-
-                            <textarea id="message" name="message" rows="5"
-                                placeholder="Tell us anything we should know about your vehicle or booking."></textarea>
-                        </div>
-
-
-                        <button type="submit">Submit Enquiry</button>
-
-                    </form>
+    <button type="submit">Submit Enquiry</button>
+    <p id="enquiry-feedback" role="status" aria-live="polite"></p>
+</form>
 
                 </div>
 
@@ -130,7 +135,7 @@
             <p>&copy; 2026 Monster Wash Kings. All Rights Reserved.</p>
         </div>
     </footer>
-
+<script src="js/script.js"></script>
 </body>
 
 </html>
