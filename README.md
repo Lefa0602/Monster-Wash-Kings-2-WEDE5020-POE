@@ -156,14 +156,13 @@ A shared external stylesheet was created:
 css/style.css
 # References
 
-- MDN Web Docs. (n.d.). CSS Documentation. https://developer.mozilla.org/en-US/docs/Web/CSS
-- MDN Web Docs. (n.d.). CSS Media Queries. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries
-- MDN Web Docs. (n.d.). Responsive Images. https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images
-- MDN Web Docs. (n.d.). CSS Flexbox. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
-- MDN Web Docs. (n.d.). CSS Grid Layout. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
-- MDN Web Docs. (n.d.). JavaScript Guide. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
-- FormSubmit.app. (n.d.). Form submission service. https://formsubmit.app/
-
+- [MDN Web Docs – CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [MDN Web Docs – CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries)
+- [MDN Web Docs – Responsive Images](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images)
+- [MDN Web Docs – CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout)
+- [MDN Web Docs – CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
+- [MDN Web Docs – JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [FormSubmit.app](https://formsubmit.app/)
 ## Part 3 – JavaScript Functionality
 
 ### Part 3 Overview
