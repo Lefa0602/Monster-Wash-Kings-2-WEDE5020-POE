@@ -1,11 +1,15 @@
 # Monster Wash Kings
 
+
 ## WEDE5020 Web Development Introduction – POE
 
 **Student:** Lethabo Molwantwa  
 **Student Number:** ST10483962  
 **Project:** Monster Wash Kings – Mobile Car Wash Website
 
+## Live Website
+
+[Visit Monster Wash Kings](https://lefa0602.github.io/Monster-Wash-Kings-2-WEDE5020-POE/)
 ---
 
 ## Project Overview
@@ -46,6 +50,45 @@ The website includes the following pages:
 The website uses HTML and CSS to create the structure, layout and visual presentation of the pages.
 
 ---
+
+## Changelog
+
+This section records the development changes and improvements made to the Monster Wash Kings website throughout the POE.
+
+### Part 2 – Changes Based on Part 1 Feedback
+
+- Reviewed the feedback received for Part 1 and identified areas requiring improvement.
+- Improved the HTML structure by using clearer semantic sections and consistent classes across the website pages.
+- Expanded and refined the website content on the Home, About, Services, Enquiry and Contact pages.
+- Improved consistency across the navigation menus to make movement between pages easier.
+- Organised the external CSS stylesheet into clearly labelled sections.
+- Added comments to the CSS code to improve readability and maintainability.
+
+### Part 2 – CSS Styling and Responsive Design
+
+- Created an external stylesheet at `css/style.css`.
+- Applied consistent typography, colours, spacing, borders, shadows and button styling across the website.
+- Implemented responsive layouts using CSS media queries.
+- Adjusted the layout, text and navigation for desktop, tablet and mobile screens.
+- Tested the website at approximately 1440px (desktop), 768px (tablet) and 390px (mobile).
+- Added screenshots to the `Screenshots` folder as evidence of responsive testing.
+
+### Part 3 – JavaScript and Functionality
+
+- Created an external JavaScript file at `js/script.js`.
+- Implemented smooth scrolling for internal page links.
+- Added booking date validation to prevent customers from selecting dates in the past.
+- Added a console message to confirm that the JavaScript file loads successfully.
+- Connected the Enquiry and Contact forms to FormSubmit.app using their HTML form action attributes.
+- Tested both forms to confirm that customer submissions could be sent successfully.
+
+### Part 3 – Deployment and Documentation
+
+- Updated the README document with information about the JavaScript functionality and form implementation.
+- Added the live website link to the README.
+- Renamed the homepage from `Index.html` to `index.html` to meet GitHub Pages requirements.
+- Configured GitHub Pages to publish the website from the root folder of the `main` branch.
+- Successfully deployed the website using GitHub Pages.
 
 # Part 1 Feedback and Changes
 
@@ -155,6 +198,10 @@ A shared external stylesheet was created:
 ```text
 css/style.css
 # References
+
+## References
+
+## References
 
 - [MDN Web Docs – CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [MDN Web Docs – CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries)
